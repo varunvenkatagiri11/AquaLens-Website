@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    width: 100%;
+    background: #ff0000; /* Red background */
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar .logo a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff; /* White text */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img.uga-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar .menu a {
+    font-size: 18px;
+    color: #fff; /* White text */
+    transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: #ccc; /* Grey hover effect */
+}
+
+/* Home Section */
+.home {
+    height: 100vh;
+    background: url('images/space.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .text {
+    color: #fff; /* White text */
+}
+
+.home .text-two {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home .text-three {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff; /* White text */
+}
+
+.home .button p {
+    font-size: 20px;
+    color: #fff; /* White text */
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Fade-in when visible */
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+section .title span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff; /* White text */
+}
+
+/* Footer */
+footer {
+    background: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+}
