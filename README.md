@@ -1,4 +1,4 @@
-# AquaLens-Website
+# AquaLens-Website (CUBESat take home proj)
 
 Welcome to the AquaLens website project! This website showcases the mission, technology, and impact of the AquaLens CubeSat, which monitors Harmful Algal Blooms (HABs) using hyperspectral imaging technology.
 
